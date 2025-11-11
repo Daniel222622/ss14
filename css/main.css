@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    color: white;
+    background-image: url(mediacss/background.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 100vh 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.base-link{
+    color: white;
+    text-decoration: none;
+}
+.base-link:hover {
+    color: #f5f5f9;
+    cursor:pointer
+}
+.porno-link:visited {
+    color: #c4c4c7;
+}
+.knopka{
+background-color:  #2c2c30;
+width: 350px;
+height: 35px;
+right: -20px;
+}
+button {
+    padding: 9px 110px;
+    border: 1px outset 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color:  #2c2c30;
+    right: -20px;    
+    color: #F2F2F2;
+}
+.coddostupa {
+    padding: 9px 60px;
+    border: 1px outset 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color:  #2c2c30;
+    color: #F2F2F2;
+}
+button.gradient {
+    background: linear-gradient(149deg, rgba(54, 54, 48, 1) 0%, rgba(44, 44, 48, 1) 42%, rgba(44, 74, 48, 1) 72%, rgba(44, 14, 48, 1) 100%);
+    animation: gradient 10s infinite linear; 
+    background-size: 400%; 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+/* Временно оставлю так, потом подберу цвета для хорошего градиента
